@@ -446,3 +446,22 @@ main {
     display: none;
   }
 }
+
+@media screen and (max-height: 830px) {
+  .sidebar-shortcuts {
+    display: none;
+  }
+}
+
+@media screen and (max-height: 600px) {
+  .sidebar-owner {
+    background-color: white;
+  }
+  .sidebar-owner-name {
+    display: none;
+  }
+
+  .owner-designation {
+    display: none;
+  }
+}
