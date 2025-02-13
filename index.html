@@ -16,64 +16,116 @@
   <body>
     <!-- sidebar section -->
     <div class="sidebar">
-      <div class="sidebar-title">
+      <div
+        class="sidebar-title"
+        tabindex="0"
+        aria-label="website logo"
+        role="img"
+      >
         <img src="./images/Logo.svg" alt="CaAll logo" />
       </div>
-      <div class="sidebar-owner">
+      <div
+        class="sidebar-owner"
+        tabindex="0"
+        aria-label="information of account owner"
+        role="region"
+      >
         <img
+          tabindex="0"
+          role="img"
           src="./images/Avatar.svg"
           alt="owner profile logo"
           class="image1"
         />
-        <p class="sidebar-owner-name">Linh Nguyen</p>
-        <p class="owner-designation">Owner & Founder</p>
+        <p class="sidebar-owner-name" tabindex="0">Linh Nguyen</p>
+        <p class="owner-designation" tabindex="0">Owner & Founder</p>
       </div>
       <div class="sidebar-sections">
-        <div class="sidebar-section-elements">
+        <div
+          class="sidebar-section-elements"
+          tabindex="0"
+          aria-label="feed section"
+          role="region"
+        >
           <img src="./images/Menu.svg" alt="feed logo" />
           <p class="sidebar-section-name">Feed</p>
         </div>
 
-        <div class="sidebar-section-elements">
+        <div
+          class="sidebar-section-elements"
+          tabindex="0"
+          aria-label="friends section"
+          role="region "
+        >
           <img src="./images/Group.svg" alt="feed logo" />
           <p class="sidebar-section-name">Friends</p>
         </div>
 
-        <div class="sidebar-section-elements">
+        <div
+          class="sidebar-section-elements"
+          tabindex="0"
+          aria-label="event section"
+          role="region"
+        >
           <img src="./images/Group1.svg" alt="feed logo" />
           <p class="sidebar-section-name">Event</p>
         </div>
 
-        <div class="sidebar-section-elements">
+        <div
+          class="sidebar-section-elements"
+          tabindex="0"
+          aria-label="watching videos section"
+          role="region"
+        >
           <img src="./images/Group2.svg" alt="feed logo" />
           <p class="sidebar-section-name">Watch Videos</p>
         </div>
 
-        <div class="sidebar-section-elements">
+        <div
+          class="sidebar-section-elements"
+          tabindex="0"
+          aria-label="photos section"
+          role="region"
+        >
           <img src="./images/Group3.svg" alt="feed logo" />
           <p class="sidebar-section-name">Photos</p>
         </div>
 
-        <div class="sidebar-section-elements">
+        <div
+          class="sidebar-section-elements"
+          tabindex="0"
+          aria-label="files section"
+          role="region"
+        >
           <img src="./images/Combined Shape.svg" alt="feed logo" />
           <p class="sidebar-section-name">Files</p>
         </div>
 
-        <div class="sidebar-section-elements">
+        <div
+          class="sidebar-section-elements"
+          tabindex="0"
+          aria-label="Marketplace section which is currently selected."
+          role="region"
+        >
           <img src="./images/Group4.svg" alt="feed logo" />
           <p class="sidebar-section-name-selected">Marketplace</p>
         </div>
       </div>
       <div class="sidebar-shortcuts">
-        <div class="Shortcuts-title">
-          <div class="title">Shortcuts</div>
+        <div tabindex="0" class="Shortcuts-title">
+          <div class="title" aria-label="shortcuts section">Shortcuts</div>
           <div class="shortcuts-arrow">
             <img src="./images/arrow.svg" alt="drop down" />
           </div>
         </div>
 
         <div class="shortcuts-cards">
-          <div class="shortcuts-card">
+          <div
+            class="shortcuts-card"
+            tabindex="0"
+            aria-label="shortcut group"
+            role="region"
+          >
             <img
               src="./images/Avatar1.svg"
               alt="group logo"
@@ -87,7 +139,12 @@
             />
           </div>
 
-          <div class="shortcuts-card">
+          <div
+            class="shortcuts-card"
+            tabindex="0"
+            aria-label="shortcut group"
+            role="region"
+          >
             <img
               src="./images/Avatar2.svg"
               alt="group logo"
@@ -105,11 +162,17 @@
     </div>
 
     <div class="main-body">
+      <!--navbar section-->
       <nav>
         <div class="nav-search">
-          <div class="search-bar">
+          <div
+            class="search-bar"
+            tabindex="0"
+            aria-label="search bar to search for mails"
+            role="search"
+          >
             <div class="search-bar-logo-input">
-              <img src="./images/search.svg" alt="search button" />
+              <img src="./images/search.svg" alt="search button" tabindex="0" />
 
               <input
                 type="text"
@@ -119,6 +182,7 @@
             </div>
             <div class="search-bar-arrow">
               <img
+                tabindex="0"
                 src="./images/Arrow - Bottom-1.svg"
                 alt="explore more such mails"
               />
@@ -126,30 +190,100 @@
           </div>
         </div>
         <div class="nav-icons">
-          <img src="./images/Button.svg" alt="app person button" />
-          <img src="./images/Item.svg" alt="message sombody button" />
-          <img src="./images/Item1.svg" alt="More options button" />
+          <img src="./images/Button.svg" alt="app person button" tabindex="0" />
+          <img
+            src="./images/Item.svg"
+            alt="message sombody button"
+            tabindex="0"
+          />
+          <img
+            src="./images/Item1.svg"
+            alt="More options button"
+            tabindex="0"
+          />
         </div>
       </nav>
-
+      <!--product section-->
       <main>
         <div class="products">
           <div class="products-heading">
-            <div class="products-heading-location">dfsdf</div>
-            <div class="products-heading-search-button">sdfdsf</div>
+            <div class="products-heading-location">
+              <div
+                class="location"
+                tabindex="0"
+                aria-label="location of the account owner"
+                role="region"
+              >
+                <img src="./images/location.svg" alt="location logo" />
+                <p>Hanoi, Vietnam</p>
+              </div>
+            </div>
+            <div class="products-heading-search-button">
+              <img
+                tabindex="0"
+                src="./images/Search-product.svg"
+                alt="search product buttons"
+              />
+              <button class="product-heading-button">
+                <img src="./images/Plus.svg" alt="add something to sell" />
+                <p>Sell Something</p>
+              </button>
+            </div>
           </div>
-          <div class="products-product-section">sdfsdfdsf</div>
+          <div class="products-product-section">
+            <div class="grid" tabindex="0">
+              <img src="./images/Image.svg" alt="product" />
+              <p class="product-price">$16.00</p>
+              <p class="product-name">Stainless Steel Sciss…</p>
+              <p class="product-location">Hanoi, Vietnam</p>
+            </div>
+
+            <div class="grid" tabindex="0">
+              <img src="./images/Image1.svg" alt="product" />
+              <p class="product-price">$86.00</p>
+              <p class="product-name">Steam Vaporizer</p>
+              <p class="product-location">Vinh, Vietnam</p>
+            </div>
+
+            <div class="grid" tabindex="0">
+              <img src="./images/Image2.svg" alt="product" />
+              <p class="product-price">$16.00</p>
+              <p class="product-name">Temperature Gun</p>
+              <p class="product-location">Danang, Vietnam</p>
+            </div>
+
+            <div tabindex="0">
+              <img src="./images/Image3.svg" alt="product" />
+              <p class="product-price">$15.00</p>
+              <p class="product-name">Your Family Medicine…</p>
+              <p class="product-location">Hanoi, Vietnam</p>
+            </div>
+
+            <div tabindex="0">
+              <img src="./images/Image4.svg" alt="product" />
+              <p class="product-price">$18.00</p>
+              <p class="product-name">Fitted Face Mask N…</p>
+              <p class="product-location">Hanoi, Vietnam</p>
+            </div>
+
+            <div tabindex="0">
+              <img src="./images/Image5.svg" alt="product" />
+              <p class="product-price">$15.00</p>
+              <p class="product-name">Sanitizer Gel Alcohol</p>
+              <p class="product-location">Hanoi, Vietnam</p>
+            </div>
+          </div>
         </div>
 
         <!-- contact-group-search bar section -->
 
         <div class="contacts">
           <div class="contacts-contact-section">
-            <div class="contact-title">
+            <div class="contact-title" tabindex="0">
               <p>Contacts</p>
             </div>
             <div class="contact-wrapper">
-              <div class="contact">
+              <div class="contact" tabindex="0">
                 <div class="contact-logo-name">
                   <img
                     src="./images/Avatar-contact.png"
@@ -166,7 +300,7 @@
                 </div>
               </div>
 
-              <div class="contact">
+              <div class="contact" tabindex="0">
                 <div class="contact-logo">
                   <img src="./images/03.svg" alt="contact person profile" />
                 </div>
@@ -180,7 +314,7 @@
                 </div>
               </div>
 
-              <div class="contact">
+              <div class="contact" tabindex="0">
                 <div class="contact-logo">
                   <img src="./images/08.svg" alt="contact person profile" />
                 </div>
@@ -194,7 +328,7 @@
                 </div>
               </div>
 
-              <div class="contact">
+              <div class="contact" tabindex="0">
                 <div class="contact-logo">
                   <img src="./images/07.svg" alt="contact person profile" />
                 </div>
@@ -208,7 +342,7 @@
                 </div>
               </div>
 
-              <div class="contact">
+              <div class="contact" tabindex="0">
                 <div class="contact-logo">
                   <img src="./images/05.svg" alt="contact person profile" />
                 </div>
@@ -225,9 +359,9 @@
           </div>
 
           <div class="contacts-group">
-            <div class="contact-title">Groups</div>
+            <div class="contact-title" tabindex="0">Groups</div>
             <div class="groups">
-              <div class="contact">
+              <div class="contact" tabindex="0">
                 <div class="contact-logo">
                   <img src="./images/group-logo1.svg" alt="group logo" />
                 </div>
@@ -241,7 +375,7 @@
                 </div>
               </div>
 
-              <div class="contact">
+              <div class="contact" tabindex="0">
                 <div class="contact-logo">
                   <img src="./images/group-logo2.svg" alt="group logo" />
                 </div>
@@ -255,7 +389,7 @@
                 </div>
               </div>
 
-              <div class="contact">
+              <div class="contact" tabindex="0">
                 <div class="contact-logo">
                   <img src="./images/group-logo3.svg" alt="group logo" />
                 </div>
@@ -272,8 +406,8 @@
           </div>
 
           <div class="contacts-search">
-            <div class="contacts-search-bar">
-              <img src="./images/search.svg" alt="search icon" />
+            <div class="contacts-search-bar" tabindex="0">
+              <img src="./images/search.svg" alt="search icon" tabindex="0" />
               <input
                 type="text"
                 placeholder="Search by name or group"
