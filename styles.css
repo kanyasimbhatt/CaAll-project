@@ -157,7 +157,7 @@ body {
 /*navabar css*/
 
 nav {
-  height: 13vh;
+  height: 12vh;
   padding: 0 3vw 0 3vw;
   display: flex;
 }
@@ -211,12 +211,12 @@ nav {
 }
 
 main {
-  height: calc(100% - 13vh);
+  height: calc(100% - 12vh);
   display: flex;
 }
 
 .products {
-  width: 70%;
+  width: 80%;
   background-color: antiquewhite;
 }
 
@@ -241,21 +241,100 @@ main {
   background-color: darkgrey;
 }
 
+/* contact-group-search bar section */
+
 .contacts {
-  width: 30%;
+  width: 20%;
   background-color: white;
   border-radius: 15px 15px 0 0;
-  margin: 0 2vw 0 2vw;
+  margin: 0 3vw 0 2vw;
+  padding: 2vh 2vw 0 2vw;
+}
+
+.contact-title {
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--sidebar-text-color-heading);
 }
 
 .contacts-contact-section {
   height: 40%;
 }
 
+.contact-wrapper {
+  padding-top: 1vh;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1vw;
+  gap: 20px;
+}
+
+.contact-logo {
+  width: 10%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.contact-name {
+  width: 60%;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.contact-notification {
+  width: 20%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.contact-notification > p {
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--sidebar-text-color);
+}
+
 .contacts-group {
   height: 40%;
+  padding-top: 2vh;
+}
+
+.group {
+  display: flex;
+  align-items: center;
+}
+
+.groups {
+  margin-top: 3vh;
 }
 
 .contacts-search {
+  display: flex;
+  align-items: flex-end;
   width: 20%;
+  flex: 1;
+  margin-top: 3vh;
+}
+
+.contacts-search-bar {
+  display: flex;
+  background-color: var(--main-color);
+  gap: 20px;
+  padding: 15px 40px 15px 20px;
+  border-radius: 15px;
+}
+
+.contact-input-bar {
+  border: none;
+  background-color: transparent;
+}
+
+.contact-input-bar::placeholder {
+  font-size: 14px;
+  color: var(--sidebar-text-color);
+  font-weight: 700;
 }
