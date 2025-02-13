@@ -163,6 +163,13 @@ nav {
   display: flex;
 }
 
+.hamburger {
+  display: none;
+  height: 30px;
+  width: 30px;
+  margin-right: 10px;
+}
+
 .nav-search {
   width: 50%;
   display: flex;
@@ -379,7 +386,7 @@ main {
 .contacts-search-bar {
   display: flex;
   background-color: var(--main-color);
-  gap: 20px;
+  gap: 1vw;
   padding: 15px 40px 15px 20px;
   border-radius: 15px;
 }
@@ -393,4 +400,48 @@ main {
   font-size: 14px;
   color: var(--sidebar-text-color);
   font-weight: 700;
+}
+
+@media screen and (max-width: 1490px) {
+  .contacts {
+    display: none;
+  }
+  .products {
+    width: 100%;
+    margin-left: 3vw;
+    margin-bottom: 3vw;
+    margin-right: 3vw;
+  }
+}
+
+@media screen and (max-width: 1170px) {
+  .sidebar {
+    display: none;
+  }
+
+  .hamburger {
+    display: inline;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  .products-product-section {
+    display: grid;
+    overflow: auto;
+    grid-template-columns: repeat(2, calc(100% - 68%));
+    column-gap: 200px;
+    padding-left: 30px;
+    text-align: center;
+    height: 90%;
+  }
+
+  .products {
+    margin-bottom: 10%;
+    margin-left: 5vw;
+    margin-right: 5vw;
+  }
+
+  .search-bar {
+    display: none;
+  }
 }
