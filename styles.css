@@ -202,6 +202,7 @@ nav {
 
 .input-bar {
   border: none;
+  width: 100%;
 }
 
 .input-bar::placeholder {
