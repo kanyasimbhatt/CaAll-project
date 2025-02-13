@@ -430,7 +430,7 @@ main {
     overflow: auto;
     grid-template-columns: repeat(2, calc(100% - 68%));
     column-gap: 200px;
-    padding-left: 30px;
+    padding-left: 2vw;
     text-align: center;
     height: 90%;
   }
