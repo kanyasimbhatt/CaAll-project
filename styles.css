@@ -158,23 +158,60 @@ body {
 
 nav {
   height: 13vh;
-  background-color: beige;
+  padding: 0 3vw 0 3vw;
   display: flex;
 }
 
 .nav-search {
   width: 50%;
-  background-color: cadetblue;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.search-bar {
+  display: flex;
+  background-color: white;
+  width: 400px;
+  height: 56px;
+  align-items: center;
+  border-radius: 15px;
+  padding: 0 1vw 0 1vw;
+}
+
+.search-bar-logo-input {
+  width: 90%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 5px;
+}
+
+.search-bar-arrow {
+  width: 10%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.input-bar {
+  border: none;
+}
+
+.input-bar::placeholder {
+  font-size: 14px;
+  color: var(--sidebar-text-color);
+  font-weight: 700;
 }
 
 .nav-icons {
   width: 50%;
-  background-color: chartreuse;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 25px;
 }
 
 main {
   height: calc(100% - 13vh);
-  background-color: pink;
   display: flex;
 }
 
@@ -206,20 +243,19 @@ main {
 
 .contacts {
   width: 30%;
-  background-color: burlywood;
+  background-color: white;
+  border-radius: 15px 15px 0 0;
+  margin: 0 2vw 0 2vw;
 }
 
 .contacts-contact-section {
   height: 40%;
-  background-color: pink;
 }
 
 .contacts-group {
   height: 40%;
-  background-color: lightcoral;
 }
 
 .contacts-search {
   width: 20%;
-  background-color: lightskyblue;
 }
