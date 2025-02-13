@@ -1,0 +1,225 @@
+:root {
+  --main-color: rgba(245, 181, 68, 0.1);
+  --sidebar-text-color: rgba(9, 27, 61, 0.4);
+  --sidebar-text-color-heading: rgba(9, 27, 61, 1);
+}
+
+body {
+  display: flex;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*sidebar css*/
+
+.sidebar {
+  height: 100vh;
+  width: 12vw;
+  background-color: white;
+  text-align: center;
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
+}
+
+.sidebar-title {
+  height: 10vh;
+  padding-top: 5vh;
+  text-align: center;
+}
+
+.sidebar-owner {
+  height: 20vh;
+  width: 100%;
+  background-color: var(--main-color);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.image1 {
+  height: 50px;
+  width: 50px;
+}
+
+.sidebar-owner-name {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 0;
+  margin-top: 1.5vw;
+}
+
+.owner-designation {
+  margin-bottom: 0;
+  margin-top: 0.5vw;
+  font-size: 12px;
+  font-weight: 400;
+  color: var(--sidebar-text-color);
+}
+
+.sidebar-sections {
+  height: calc(100vh - 70vh);
+  padding-top: 3vh;
+}
+
+.sidebar-section-elements {
+  display: flex;
+  gap: 15px;
+}
+
+.sidebar-section-name-selected {
+  color: black;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.sidebar-section-name {
+  color: var(--sidebar-text-color);
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.sidebar-shortcuts {
+  height: 23vh;
+  margin-top: 6vh;
+}
+
+.Shortcuts-title {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--sidebar-text-color-heading);
+}
+
+.shortcuts-arrow {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.shortcuts-cards {
+  padding-top: 2vh;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.shortcuts-card {
+  display: flex;
+  align-items: center;
+  background-color: var(--main-color);
+  border-radius: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.shortcuts-card-logo {
+  width: 10%;
+}
+
+.shortcuts-group-title {
+  width: 80%;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--sidebar-text-color-heading);
+}
+
+.notifications1 {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-top: 1.5vh;
+}
+
+.notifications {
+  width: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 2vh 0 2vh 0;
+}
+
+.main-body {
+  flex: 1;
+  background-color: rgba(245, 181, 68, 0.1);
+}
+
+/*navabar css*/
+
+nav {
+  height: 13vh;
+  background-color: beige;
+  display: flex;
+}
+
+.nav-search {
+  width: 50%;
+  background-color: cadetblue;
+}
+
+.nav-icons {
+  width: 50%;
+  background-color: chartreuse;
+}
+
+main {
+  height: calc(100% - 13vh);
+  background-color: pink;
+  display: flex;
+}
+
+.products {
+  width: 70%;
+  background-color: antiquewhite;
+}
+
+.products-heading {
+  height: 15vh;
+  background-color: darkorchid;
+  display: flex;
+}
+
+.products-heading-location {
+  width: 50%;
+  background-color: coral;
+}
+
+.products-heading-search-button {
+  width: 50%;
+  background-color: blanchedalmond;
+}
+
+.products-product-section {
+  height: calc(100% - 15vh);
+  background-color: darkgrey;
+}
+
+.contacts {
+  width: 30%;
+  background-color: burlywood;
+}
+
+.contacts-contact-section {
+  height: 40%;
+  background-color: pink;
+}
+
+.contacts-group {
+  height: 40%;
+  background-color: lightcoral;
+}
+
+.contacts-search {
+  width: 20%;
+  background-color: lightskyblue;
+}
